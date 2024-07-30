@@ -1,0 +1,61 @@
+/*Estilização index*/
+
+#menu li {
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+
+}
+#menu li a:hover {
+    color: purple;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom, #FFDFD6,#E3A5C7,#B692C2 );
+}
+
+footer {
+    background-color: #B692C2;
+    text-align: center;
+}
+
+.center {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 35px;
+    background-color: #B692C2;
+    text-align: center;
+}
+.container {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto {
+    padding: 20px;
+}
+
+.container-imagem {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-rebeca{
+    border-radius: 15%;
+}
+.footer{
+    text-align: center;
+}
+/*Estilização contato*/
