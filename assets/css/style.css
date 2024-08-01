@@ -74,19 +74,6 @@ font-style: italic
     font-weight: bold;
 }
 
-/*
-.container-imagem {
-
-    display: flex;
-    border: 3px solid black ;
-    width: 20%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    
-}
-*/
-
 .imagem-rebeca{
     display: flex;
     width: 30%;
@@ -99,3 +86,13 @@ font-style: italic
     text-align: center;
 }
 /*Estilização contato*/
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.contato {
+    padding-left: 10%;
+}
