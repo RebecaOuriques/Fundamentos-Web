@@ -13,6 +13,7 @@
 }
 #menu li a:hover {
     color: purple;
+    font-size: 21px;
 
 }
 
@@ -32,29 +33,67 @@ footer {
     background-color: #B692C2;
     text-align: center;
 }
-.container {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.principal{
+    padding: 2% 2%;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
 }
 
-.texto {
-    padding: 20px;
+.principal-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    align-items: center;
+
 }
 
+.principal-texto1 {
+    height: 100%; 
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 5px;
+}
+
+.linha {
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+.principal-titulo{
+}
+
+.principal-destaque1 {
+font-style: italic
+}
+
+.principal-destaque2 {
+    font-weight: bold;
+}
+
+/*
 .container-imagem {
-    padding: 10px;
+
+    display: flex;
+    border: 3px solid black ;
+    width: 20%;
+    height: 100%;
     align-items: center;
     justify-content: center;
-    align-items: center;
+    
 }
+*/
 
 .imagem-rebeca{
-    border-radius: 15%;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
 }
+
 .footer{
     text-align: center;
 }
