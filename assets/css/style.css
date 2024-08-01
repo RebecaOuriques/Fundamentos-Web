@@ -34,7 +34,6 @@ footer {
     text-align: center;
 }
 .principal{
-    padding: 2% 2%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -48,16 +47,19 @@ footer {
     flex-flow: column nowrap;
     align-items: center;
 
+
 }
 
 .principal-texto1 {
     height: 100%; 
     font-size: 1.1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-right: 5px;
+    padding-right: 10px;
     margin: 5px;
+    text-align: justify;
     word-wrap: break-word;
     white-space:initial;
+
 }
 
 .linha {
@@ -80,6 +82,7 @@ font-style: italic
     justify-content: center;
     align-items: center;
     border-radius: 20%;
+    border: solid 1px black 
 }
 
 .footer{
@@ -90,6 +93,7 @@ font-style: italic
 .container {
     display: flex;
     flex-flow: row;
+    align-items: center ;
     justify-content: space-around;
 }
 
