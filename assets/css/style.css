@@ -52,15 +52,19 @@ footer {
 
 .principal-texto1 {
     height: 100%; 
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-right: 5px;
+    margin: 5px;
+    word-wrap: break-word;
+    white-space:initial;
 }
 
 .linha {
-    word-wrap: break-word;
+ 
     white-space: pre-line;
 }
+
 
 .principal-destaque1 {
 font-style: italic
